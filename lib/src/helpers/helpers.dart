@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as services;
 
 void cambiarStatusLight () {
@@ -6,4 +7,10 @@ void cambiarStatusLight () {
 
 void cambiarStatusDark () {
   services.SystemChrome.setSystemUIOverlayStyle(services.SystemUiOverlayStyle.dark);
+}
+
+void cambiarNavigationBar () {
+  services.SystemChrome.setSystemUIOverlayStyle(services.SystemUiOverlayStyle(
+    systemNavigationBarColor: Colors.white
+  ));
 }

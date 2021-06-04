@@ -8,7 +8,7 @@ class ZapatoPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    cambiarStatusDark();
+    // cambiarStatusDark();
     return Scaffold(
       body: Column(
         children: [

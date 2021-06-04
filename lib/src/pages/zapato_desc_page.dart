@@ -11,7 +11,7 @@ class ZapatoDescripcionPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    cambiarStatusLight();
+    // cambiarStatusLight();
 
     return Scaffold(
       body: Column(
@@ -27,7 +27,7 @@ class ZapatoDescripcionPage extends StatelessWidget {
                 child: FloatingActionButton(
                   child: Icon(Icons.chevron_left_rounded, color: Colors.white, size: 60,),
                   onPressed: (){
-                    cambiarStatusDark();
+                    // cambiarStatusDark();
                     Navigator.pop(context);
                   },
                   backgroundColor: Colors.transparent,
